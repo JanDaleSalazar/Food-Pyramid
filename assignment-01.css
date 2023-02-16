@@ -1,0 +1,120 @@
+.pyramid{
+    shape-outside: polygon(310px 0, 130px 405px, 558px
+ 405px);
+ }
+
+ .wrapper{
+    margin-top: 5vh;
+  
+ }
+ 
+
+
+  .zone{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    text-align: center;
+     background-blend-mode: darken;
+     transition: 0.5s;
+     
+  }
+
+
+  .zone:nth-child(1){
+    background:rgba(255, 0, 0, 0.904);
+   width: 15%;
+   clip-path:polygon(50% 0, 0% 100%, 100% 100%);
+   -webkit-clip-path:polygon(50% 0, 0% 100%, 100% 100%);
+    
+  }
+  .zone:nth-child(2){ background: rgba(243, 166, 0, 0.7);
+   width: 28%;
+   clip-path:polygon(20% 15%, 80% 15%, 100% 85%, 0 85%);
+   -webkit-clip-path:polygon(20% 15%, 80% 15%, 100% 85%, 0 85%);
+  }
+  .zone:nth-child(3){
+   width: 45%;
+   background:rgba(241, 230, 3, 0.829);
+   clip-path:polygon(16.5% 0, 83% 0, 100% 100%, 0 100%);
+   -webkit-clip-path:polygon(16.5% 0, 83% 0, 100% 100%, 0 100%);
+  }
+  .zone:nth-child(4){
+   background:rgba(6, 138, 247, 0.801);
+   width: 60%;
+   clip-path:polygon(12.5% 0, 87.5% 0, 100% 100%, 0 100%);
+   -webkit-clip-path:polygon(12.5% 0, 87.5% 0, 100% 100%, 0 100%);
+  }
+  .zone:nth-child(5){
+    background:rgba(153, 79, 6, 0.76);
+    width: 76%;
+  
+    clip-path:polygon(10.5% 0, 0%,89.5% 0, 100% 100%,0% 100%);
+    -webkit-clip-path:polygon(10.5% 0,89.5% 0, 100% 100%,0% 100%);
+  }
+  .zone:nth-child(6){
+    background:rgba(0, 247, 41, 0.7);
+    width: 91%;
+  
+    clip-path:polygon(8.25% 0%, 0%,91.75% 0, 100% 100%,0% 100%);
+    -webkit-clip-path:polygon(8.25% 0%,91.75% 0, 100% 100%,0% 100%);
+  }
+  
+  .minusBread, .plusBread, .minusVeg, .plusVeg,.minusFruit, .plusFruit, .minusMilk, .plusMilk,   .minusOil, .plusOil,  .minusFat, .plusFat   {
+    opacity: 0; /* Start with the elements hidden */
+  }
+  
+  .zone:hover .minusBread, .zone:hover .plusBread,  .zone:hover .minusVeg, .zone:hover .plusVeg, .zone:hover .minusFruit, .zone:hover .plusFruit, .zone:hover .minusMilk, .zone:hover .plusMilk, .zone:hover .minusOil, .zone:hover .plusOil,   .zone:hover .minusFat, .zone:hover .plusFat    {
+    opacity: 1; /* Show the elements when the parent is hovered */
+  }
+  
+  label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    
+  }
+ 
+  
+  input,
+  label {
+    margin: 0.4rem 0;
+    display: block;  /* Make Block type */
+    margin: auto; 
+    
+  }
+  
+  
+  h2{
+    text-align: center;
+  }
+  
+
+  span{
+    position: relative;
+    top: 15px;
+    font-size: small;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(158, 157, 157);
+    border-radius: 50%;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1;
+    }
+    
+    
+
+    
+   
+
+  
+    /* Google fonts import link */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popppins',sans-serif;
+  }
+  
+
